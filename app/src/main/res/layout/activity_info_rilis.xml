@@ -31,7 +31,7 @@
         android:paddingTop="10dp"
         android:paddingRight="20dp"
         android:paddingBottom="10dp"
-        android:text="Selamat datang di Aplikasi Satu Data Kabupaten Sumbawa Barat Berbasis Gotong Royong. Aplikasi ini merupakan aplikasi versi pertama. Harapannya dengan adanya aplikasi ini dapat membantu pengumpulan dan pengelolaan data sektoral yang melibatkan partisipasi aktif dari Agen Gotong Royong dan Forum Satu Data yang ada di Kabupaten Sumbawa Barat."
+        android:text="Selamat datang di Aplikasi Data Sektoral Kabupaten Sumbawa Barat Berbasis Gotong Royong. Aplikasi ini merupakan aplikasi versi pertama. Harapannya dengan adanya aplikasi ini dapat membantu pengumpulan dan pengelolaan data sektoral yang melibatkan partisipasi aktif dari Agen Gotong Royong, Unsur Pemerintah dan Forum Satu Data yang ada di Kabupaten Sumbawa Barat untuk mewujudkan KSB Satu Data."
         android:textColor="#FFFDE7"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

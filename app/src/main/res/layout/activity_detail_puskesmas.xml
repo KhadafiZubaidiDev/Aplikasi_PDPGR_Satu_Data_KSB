@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DetailPuskesmasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivDetailFotoPuskesmas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/puskesmas_sekongkang" />
+
+            <TextView
+                style="@style/TextContent.Small.White"
+                android:padding="8dp"
+                android:text="Data Puskesmas"
+                android:gravity="center_vertical"
+                android:drawableStart="@drawable/ic_baseline_local_hospital_18"
+                android:drawablePadding="4dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:background="#4D000000"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="bottom" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvDetailNamaPuskesmas"
+            style="@style/TextContent"
+            android:textSize="28sp"
+            android:text="Puskesmas Tongo"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvDetailAlamatPuskesmas"
+            style="@style/TextContent.Subtitle"
+            android:text="Jl. Lingkar Selatan, Ds. Ai' Kangkung, Kec. Sekongkang"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailNamaKecamatan"
+            style="@style/TextContent.Subtitle"
+            android:text="Kecamatan Sekongkang"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:text="Detail Informasi :"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Kode Puskesmas" />
+
+                <TextView
+                    android:id="@+id/tvDetailKodePuskesmas"
+                    style="@style/TextSpec.Value"
+                    android:text="1050247" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Kemampuan Layanan" />
+
+                <TextView
+                    android:id="@+id/tvDetailKemampuanLayanan"
+                    style="@style/TextSpec.Value"
+                    android:text="Non Rawat Inap" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Jml.Puskesmas Pembantu" />
+
+                <TextView
+                    android:id="@+id/tvDetailJumlahPustu"
+                    style="@style/TextSpec.Value"
+                    android:text="5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Jml.Polindes/Poskesdes" />
+
+                <TextView
+                    android:id="@+id/tvDetailJumlahPolindesPoskesdes"
+                    style="@style/TextSpec.Value"
+                    android:text="5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Jml.Poskestren" />
+
+                <TextView
+                    android:id="@+id/tvDetailJumlahPoskestren"
+                    style="@style/TextSpec.Value"
+                    android:text="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Jml.Desa Siaga" />
+
+                <TextView
+                    android:id="@+id/tvDetailJumlahDesaSiaga"
+                    style="@style/TextSpec.Value"
+                    android:text="5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Jml.Posyandu" />
+
+                <TextView
+                    android:id="@+id/tvDetailJumlahPosyandu"
+                    style="@style/TextSpec.Value"
+                    android:text="12" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

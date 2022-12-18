@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_medium"
-        android:text="Aplikasi Satu Data"
+        android:text="Aplikasi Data Sektoral"
         android:textColor="#FFFDE7"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

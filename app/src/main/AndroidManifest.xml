@@ -21,6 +21,34 @@
         android:theme="@style/Theme.AplikasiDataSektoralBerbasisGotongRoyong"
         tools:targetApi="31">
         <activity
+            android:name=".ui.DetailPuskesmasActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.PuskesmasActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.DetailEnsiklopediaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.EnsiklopediaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ui.Login2Activity"
             android:exported="false" />
         <activity
