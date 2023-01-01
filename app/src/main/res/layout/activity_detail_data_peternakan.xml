@@ -48,7 +48,7 @@
         <TextView
             android:id="@+id/tvDetailDeskripsiData"
             style="@style/TextContent.Subtitle"
-            android:text="Pada tahun 2022 jumlah Ayam Buras di Kabupaten Sumbawa Barat adalah 106.991 ekor, jumlah Ayam Pedaging adalah 98.100 ekor dan jumlah Ayam Petelur adalah 65.061 ekor. Sementara itu jumlah Itik adalah 7.043 ekor, jumlah Entok adalah 1.445 ekor, jumlah burung Merpati adalah 653 ekor dan jumlah burung Puyuh adalah 232 ekor. Untuk jumlah Sapi di Kabupaten Sumbawa Barat pada tahun 2022 adalah 83.493 ekor, jumlah Kambing adalah 18.553 ekor, jumlah Kerbau adalah 16.917 ekor, jumlah Kuda adalah 7.221 ekor, jumlah Domba adalah 570 ekor dan jumlah Babi adalah 515 ekor."
+            android:text="Pada tahun 2022 jumlah Ayam Buras di Kabupaten Sumbawa Barat adalah 106.991 ekor, jumlah Ayam Pedaging adalah 98.100 ekor dan jumlah Ayam Petelur adalah 65.061 ekor. Sementara itu jumlah Itik adalah 7.043 ekor, jumlah Entok adalah 1.445 ekor, jumlah burung Merpati adalah 653 ekor dan jumlah burung Puyuh adalah 232 ekor. Untuk jumlah Sapi di Kabupaten Sumbawa Barat pada tahun 2022 adalah 83.493 ekor, jumlah Kambing adalah 18.553 ekor, jumlah Kerbau adalah 16.917 ekor, jumlah Kuda adalah 7.221 ekor, jumlah Domba adalah 570 ekor dan jumlah Babi adalah 515 ekor. (Sumber Dinas Pertanian Kab. Sumbawa Barat)"
             android:textColor="@color/black"
             android:layout_marginBottom="12dp"/>
 
