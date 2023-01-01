@@ -54,7 +54,7 @@
 
         <TextView
             style="@style/TextContent.Subtitle"
-            android:text="Grafik Perbandingan Jumlah Komoditas :"
+            android:text="Grafik Perbandingan Jumlah Komoditas Peternakan :"
             android:textColor="@color/black" />
 
         <ImageView
