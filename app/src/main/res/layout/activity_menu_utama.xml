@@ -74,14 +74,15 @@
                             <ImageView
                                 android:layout_width="90dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/icon_berita"
+                                android:src="@drawable/ic_rungan_01"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Berita"
-                                android:textAlignment="center" />
+                                android:textAlignment="center"
+                                tools:ignore="HardcodedText" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -108,14 +109,15 @@
                             <ImageView
                                 android:layout_width="90dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/ic_kecamatan"
+                                android:src="@drawable/ic_kecamatan_01"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Data Kecamatan"
-                                android:textAlignment="center" />
+                                android:text="Kecamatan"
+                                android:textAlignment="center"
+                                tools:ignore="HardcodedText" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -142,14 +144,15 @@
                             <ImageView
                                 android:layout_width="90dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/image2"
+                                android:src="@drawable/ic_ensiklopedia_01"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Ensiklopedia"
-                                android:textAlignment="center" />
+                                android:textAlignment="center"
+                                tools:ignore="HardcodedText" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -176,14 +179,85 @@
                             <ImageView
                                 android:layout_width="90dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/foto_puskesmas"
+                                android:src="@drawable/ic_puskesmas_01"
                                 tools:ignore="ContentDescription" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Puskesmas"
-                                android:textAlignment="center" />
+                                android:textAlignment="center"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- menu peternakan -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:layout_width="90dp"
+                                android:layout_height="90dp"
+                                android:src="@drawable/ic_peternakan_01"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Peternakan"
+                                android:textAlignment="center"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- menu peternakan -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/btn6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:layout_width="90dp"
+                                android:layout_height="90dp"
+                                android:src="@drawable/ic_pertanian_01"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pertanian"
+                                android:textAlignment="center"
+                                tools:ignore="HardcodedText" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
