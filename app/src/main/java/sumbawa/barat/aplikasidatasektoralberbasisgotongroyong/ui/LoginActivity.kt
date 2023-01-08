@@ -22,7 +22,7 @@ class LoginActivity : BaseActivity(){
     private fun webViewSetup(){
         webViewLogin.webViewClient = WebViewClient()
         webViewLogin.apply {
-            loadUrl("https://khadafizubaidi.xyz/login_agr_peliuk")
+            loadUrl("https://pdpgrksb.org/login_agr_peliuk")
             settings.javaScriptEnabled = true
             settings.safeBrowsingEnabled = true
         }

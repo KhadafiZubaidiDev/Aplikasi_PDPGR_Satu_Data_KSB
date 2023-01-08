@@ -9,6 +9,7 @@ import android.widget.Button
 import sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.base.BaseActivity
 import sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.ui.InfoRilisActivity
 import sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.ui.Login2Activity
+import sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.ui.Login3Activity
 import sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.ui.LoginActivity
 import sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.ui.MenuUtamaActivity
 
@@ -44,7 +45,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
                 return true
             }
             R.id.menu2 -> {
-                val i = Intent(this, InfoRilisActivity::class.java)
+                val i = Intent(this, Login3Activity::class.java)
                 startActivity(i)
                 return true
             }

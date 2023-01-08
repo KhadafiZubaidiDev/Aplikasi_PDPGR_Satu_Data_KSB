@@ -21,30 +21,30 @@ import androidx.appcompat.app.AppCompatActivity;
 import sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.MainActivity;
 import sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.R;
 
-public class Login2Activity extends AppCompatActivity {
+public class Login3Activity extends AppCompatActivity {
 
-    WebView webView;
+    WebView webView2;
     private ValueCallback<Uri> mUploadMessage;
     public ValueCallback<Uri[]> uploadMessage;
     public static final int REQUEST_SELECT_FILE = 100;
     private final static int FILECHOOSER_RESULTCODE = 1;
 
-    public String url ="https://pdpgrksb.org/login_agr_peliuk";
+    public String url ="https://pdpgrksb.org/login_agr_kecamatan";
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login2);
+        setContentView(R.layout.activity_login3);
 
-        this.setTitle("Area AGR Peliuk");
+        this.setTitle("Area AGR Kecamatan");
 
-        webView = (WebView) findViewById(R.id.webView);
-        webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl(url);
+        webView2 = (WebView) findViewById(R.id.webView2);
+        webView2.getSettings().setJavaScriptEnabled(true);
+        webView2.loadUrl(url);
 
-        webView.setWebViewClient(new xWebViewClient());
-        webView.setWebChromeClient(new WebChromeClient()
+        webView2.setWebViewClient(new Login3Activity.xWebViewClient());
+        webView2.setWebChromeClient(new WebChromeClient()
         {
 
             // For Lollipop 5.0+ Devices
@@ -109,8 +109,8 @@ public class Login2Activity extends AppCompatActivity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
 
-        if (keyCode == KeyEvent.KEYCODE_BACK && webView.canGoBack()) {
-            webView.goBack();
+        if (keyCode == KeyEvent.KEYCODE_BACK && webView2.canGoBack()) {
+            webView2.goBack();
             return true;
         }
 

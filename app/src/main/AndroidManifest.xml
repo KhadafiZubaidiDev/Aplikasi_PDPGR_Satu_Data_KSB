@@ -21,6 +21,13 @@
         android:theme="@style/Theme.AplikasiDataSektoralBerbasisGotongRoyong"
         tools:targetApi="31">
         <activity
+            android:name=".ui.Login3Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ui.DetailDataPeternakanActivity"
             android:exported="false">
             <meta-data
