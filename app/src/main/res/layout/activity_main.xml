@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_medium"
-        android:text="Aplikasi Data Sektoral"
+        android:text="PDPGR SATU DATA"
         android:textColor="#FFFDE7"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,32 +50,18 @@
         app:layout_constraintVertical_bias="0.103"
         tools:ignore="HardcodedText,TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/textView3"
+    <Button
+        android:id="@+id/btnMenuUtama1"
+        style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto_medium"
-        android:text="Berbasis Gotong Royong"
-        android:textColor="#FFFDE7"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/maroon"
+        android:text="Menu Utama"
+        app:icon="@drawable/ic_menu_utama"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.207"
-        tools:ignore="HardcodedText,TextContrastCheck" />
-
-    <Button
-        android:id="@+id/btnMenuUtama1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Menu Utama"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:icon="@drawable/ic_menu_utama"
-        style="@style/Widget.MaterialComponents.Button.Icon"
-        android:backgroundTint="@color/maroon"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="HardcodedText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
