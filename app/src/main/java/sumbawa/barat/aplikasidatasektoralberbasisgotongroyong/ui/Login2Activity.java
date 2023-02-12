@@ -37,7 +37,7 @@ public class Login2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login2);
 
-        this.setTitle("Area AGR Peliuk");
+        this.setTitle("Area AGR Posyandu");
 
         webView = (WebView) findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
