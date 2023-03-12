@@ -11,5 +11,10 @@
             android:title="option_menu2"
             android:icon = "@drawable/ic_baseline_lock_person_24"
             app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/menu3"
+            android:title="option_menu2"
+            android:icon = "@drawable/ic_login_kada"
+            app:showAsAction="ifRoom"/>
     </group>
 </menu>

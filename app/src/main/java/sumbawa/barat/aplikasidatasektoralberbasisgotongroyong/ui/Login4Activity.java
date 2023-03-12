@@ -1,5 +1,8 @@
 package sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.ui;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.annotation.SuppressLint;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -15,36 +18,33 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.MainActivity;
 import sumbawa.barat.aplikasidatasektoralberbasisgotongroyong.R;
 
-public class Login3Activity extends AppCompatActivity {
+public class Login4Activity extends AppCompatActivity {
 
-    WebView webView2;
+    WebView webView3;
     private ValueCallback<Uri> mUploadMessage;
     public ValueCallback<Uri[]> uploadMessage;
     public static final int REQUEST_SELECT_FILE = 100;
     private final static int FILECHOOSER_RESULTCODE = 1;
 
-    public String url ="https://pdpgrksb.org/login_agr_kecamatan";
+    public String url ="https://pdpgrksb.org/login_kada";
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login3);
+        setContentView(R.layout.activity_login4);
 
-        this.setTitle("Area AGR Kecamatan & Camat");
+        this.setTitle("Area Pimpinan Daerah");
 
-        webView2 = (WebView) findViewById(R.id.webView2);
-        webView2.getSettings().setJavaScriptEnabled(true);
-        webView2.loadUrl(url);
+        webView3 = (WebView) findViewById(R.id.webView3);
+        webView3.getSettings().setJavaScriptEnabled(true);
+        webView3.loadUrl(url);
 
-        webView2.setWebViewClient(new Login3Activity.xWebViewClient());
-        webView2.setWebChromeClient(new WebChromeClient()
+        webView3.setWebViewClient(new Login4Activity.xWebViewClient());
+        webView3.setWebChromeClient(new WebChromeClient()
         {
 
             // For Lollipop 5.0+ Devices
@@ -109,8 +109,8 @@ public class Login3Activity extends AppCompatActivity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
 
-        if (keyCode == KeyEvent.KEYCODE_BACK && webView2.canGoBack()) {
-            webView2.goBack();
+        if (keyCode == KeyEvent.KEYCODE_BACK && webView3.canGoBack()) {
+            webView3.goBack();
             return true;
         }
 
@@ -130,5 +130,4 @@ public class Login3Activity extends AppCompatActivity {
         }
         return true;
     }
-
 }

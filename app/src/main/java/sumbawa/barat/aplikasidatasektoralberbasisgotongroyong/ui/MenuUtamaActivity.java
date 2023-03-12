@@ -54,12 +54,13 @@ public class MenuUtamaActivity extends BaseActivity {
         //Akhir penanganan carousel
 
         //Penanganan even klik pada cardview btn1, btn2, btn3, btn4, btn5 dan btn6
-        CardView btn1,btn2,btn3,btn4,btn5;
+        CardView btn1,btn2,btn3,btn4,btn5,btn6;
         btn1 = findViewById(R.id.btn1);
         btn2 = findViewById(R.id.btn2);
         btn3 = findViewById(R.id.btn3);
         btn4 = findViewById(R.id.btn4);
         btn5 = findViewById(R.id.btn5);
+        btn6 = findViewById(R.id.btn6);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,6 +99,13 @@ public class MenuUtamaActivity extends BaseActivity {
             public void onClick(View v) {
                 Intent keActivityPeternakan = new Intent(MenuUtamaActivity.this, PeternakanActivity.class);
                 startActivity(keActivityPeternakan);
+            }
+        });
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent keActivityPertanian = new Intent(MenuUtamaActivity.this, PertanianActivity.class);
+                startActivity(keActivityPertanian);
             }
         });
     }
